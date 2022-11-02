@@ -1,4 +1,4 @@
-from utilidadesCeV.moeda.ex108 import moeda
+from utilidadesCeV import moeda
 num = float(input('Digite um preço: '))
 print(f'A metade de {moeda.moeda(num)} é {moeda.moeda(moeda.metade(num))}')
 print(f'O dobro de {moeda.moeda(num)} é {moeda.moeda(moeda.dobro(num))}')

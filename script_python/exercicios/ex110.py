@@ -1,3 +1,3 @@
-from utilidadesCeV.moeda.ex110 import moeda
+from utilidadesCeV import moeda
 num = float(input('Digite o preço: R$'))
 moeda.resumo(num, 80, 35)
